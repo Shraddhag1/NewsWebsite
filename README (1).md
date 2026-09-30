@@ -74,14 +74,7 @@ NewsWebsite/
 
 The SQLite database (`newswave.db`) is initialized when the application is run directly. It will be created in the project directory, and sample news is inserted if the news table is empty.
 
-## Admin access
 
-Open the **Admin** link in the website navigation.
-
-The credentials currently hard-coded in `app.py` are:
-
-- Username: `admin`
-- Password: `admin123`
 
 **Security note:** These are demonstration credentials. Change them and use a securely stored secret key before deploying publicly. Do not commit real passwords, secret keys, or private data to GitHub.
 
